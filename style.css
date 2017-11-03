@@ -1,0 +1,268 @@
+html,body,div,span,applet,object,iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,pre,
+a, abbr,acronym,address,big,cite,code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody,tfoot, thead,tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,hgroup,
+menu,nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* templete by _rahmaat */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+body {
+	background: Lightgray; /*membuat warna backgroun awal */
+	font-family: "Lucida Grande", verdana;
+	font-size: 14px;
+}
+.wrapper {
+	width: 950px;
+	height: auto;
+	margin: auto;
+	background: #CCC;
+	border: 2px solid #FF1493;
+
+}
+.header {
+	width: 950px;
+	height: 150px;
+	background: Deeppink;
+	margin: auto;
+	text-align: center;
+}
+
+#logo {
+    float: left;
+		width: 165px;
+		height: 145px;
+		margin: auto;
+		margin-top: -2px;
+		margin-left: 55px;
+
+}
+
+#banner {
+    float: right;
+}
+.header ul li {
+	list-style: none;
+}
+.header h1 {
+	color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 140px;
+  text-transform: uppercase;
+	margin-right: 135px;
+}
+.header ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-bottom: 200px;
+}
+
+
+#menu{
+	width: 930px;
+	height: 50px;
+	background: #DCDCDC;
+	padding: 10px;
+	color: #000000;
+	font-size: 18px;
+	border-top: 2px solid #FF1493; /* membuat text berubah warna saat di arahkan kursor*/
+	border-bottom: 2px solid #FF1493;
+
+}
+
+#menu li {
+	margin: -4px;
+	display: inline-block;
+	position: relative;
+}
+
+#menu ul li a:link, ul#menu li a:visited {
+	list-style: none;
+	display: block;
+	margin: 10px;
+	margin-top:20px;
+	text-decoration: none;
+
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #000000;
+
+}
+#menu ul li a:hover {
+	text-decoration: underline;
+	color: Deeppink;
+	font-weight: bolder;
+	border-radius: 8px;
+}
+
+#menu li ul.submenu li:first-child a:after {
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #666666;
+    content:'';
+    position: absolute;
+    top:-15px;
+    left: 10px;
+    z-index:9;
+}
+
+#menu li ul.submenu {
+     background: #666666;
+     border-radius: 10px; /* untuk mengatur bentuk lengkungan */
+     box-shadow: 0 5px 10px 10px rgba(0,0,0,0,5);
+     margin: 10px;
+     padding: 10px;  /*lebar margin di bagian submenu */
+     position: absolute;
+     visibility: hidden;
+     top: 40px;
+     opacity: 0;
+}
+
+#menu li ul.submenu li{
+	margin: 0;
+	display: block;
+}
+
+#menu li:hover ul.submenu{
+	margin: 0;
+	opacity: 10;
+	visibility: visible;
+}
+
+
+ul#menu li ul.submenu li:first-child a:after{
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #666666;
+	content:'';
+	position: absolute;
+	left: 10px;
+}
+
+.sidebar {
+	width: 250px;
+	height: 433px;
+	background: #F8F8FF;
+	float: right;
+	border-left:2px solid #FF1493;
+}
+.sidebar ul li {
+	list-style: none;
+	padding: 10px;
+	text-align: center;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+	color: #3F2B2B;
+    font-size: 16px;
+}
+.sidebar ul li a:hover {
+	text-decoration: underline;
+	font-weight: bolder;
+	color: #000000;
+}
+#sidebar_title {
+    background: #DCDCDC;
+	height: 32px;
+	color: #000000;
+	font-size: 20px;
+	padding: 10px;
+    text-align: center;
+	font-family: verdana;
+}
+
+.active {
+	letter-spacing: 50px;
+	word-spacing: 50px;
+	padding-left: 20px;
+}
+
+#area {
+	background: #F8F8FF;
+	width: 677px;
+	height: 413px;
+	float: left;
+	padding: 10px;
+
+}
+
+#area img {
+	padding: 10px 10px 0px 0px;
+	float: left;  /*meletakkan gambar agar ke sebelah kiri*/
+}
+
+#area p {
+	padding-top: 10px;
+}
+
+#area h2 {
+	color: #000000;
+	font-size: 25px;
+}
+
+#area h2 a {
+	text-decoration: none;
+	color:#000000;
+}
+
+#area h2 a:hover {
+	text-decoration: underline; /*saat text di arahkan kursor akan berubah warna */
+	color: Deeppink;
+}
+
+#area h4 {   /*bagian text */
+	color: #181616;
+	font-size: 12px;
+	font-style: italic;
+
+}
+#area ul.produk li { /*mengatur posisi gambar */
+width: 187px;
+display: inline-block;
+vertical-align: top;
+border: 2px solid #FF1493; /*besar garis */
+margin: 10px;
+padding: 5px;
+text-align: center;
+
+}
+
+
+#footer {
+	height: 50px;
+	clear: both;
+	background: #FF1493;
+	border-top: 2px solid #FF1493;
+	color: #FFFFFF;
+
+}
+#footer p {
+	padding: 2px;
+	list-style: none;
+	text-align: center;
+	font-style: italic;
+	line-height: 48px;
+}
