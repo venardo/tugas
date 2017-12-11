@@ -184,7 +184,7 @@ ul#menu li ul.submenu li:first-child a:after{
 	font-weight: bolder;
 	color: #000000;
 }
-#sidebar_title {
+#sidebar_title ul {
     background: #DCDCDC;
 	height: 32px;
 	color: #000000;
