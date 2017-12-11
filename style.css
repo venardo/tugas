@@ -273,11 +273,11 @@ text-align: center;
 		width: 100%;
 	}
 	#menu {
-		width: 40%;
+		width: 70%;
 		
 	}
 	.area {
-		width: 68%;
+		width: auto;
 		float: right;
 	}
 	
