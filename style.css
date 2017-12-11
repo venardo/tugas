@@ -282,12 +282,7 @@ text-align: center;
 		float: right;
 	}
 	
-	.sidebar {
-		clear: both;
-		
-		width: auto;
-		float: none;
-	}
+	
 }
 
 @media screen and (max-width: 780px) {
