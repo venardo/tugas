@@ -205,7 +205,6 @@ ul#menu li ul.submenu li:first-child a:after{
 	width: 893px;
 	float: left;
 	padding: 10px;
-	margin: 10px;
 	border: 1px solid;
 
 }
@@ -277,7 +276,7 @@ text-align: center;
 		width: 70%;
 		
 	}
-	.area {
+	#area {
 		width: auto;
 		float: right;
 	}
@@ -301,7 +300,7 @@ text-align: center;
 		float: none;
 	}
 	
-	.area {
+	#area {
 		width: auto;
 		float: none;
 	}
