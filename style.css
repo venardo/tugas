@@ -266,3 +266,48 @@ text-align: center;
 	font-style: italic;
 	line-height: 48px;
 }
+
+@media screen and (max-width: 1080px) {
+	
+	.wrapper {
+		width: 100%;
+	}
+	#menu {
+		width: 25%;
+		background: #fff000;
+	}
+	.area {
+		width: 68%;
+		float: right;
+	}
+	
+	.sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	#footer{
+		text-align: center;
+	}
+	#menu {
+		width: auto;
+		float: none;
+	}
+	
+	.area {
+		width: auto;
+		float: none;
+	}
+	
+	.sidebar {
+		width: auto;
+		float: none;
+	}
+
+}
