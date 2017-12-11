@@ -203,9 +203,10 @@ ul#menu li ul.submenu li:first-child a:after{
 #area {
 	background: #F8F8FF;
 	width: 893px;
-	height: 413px;
 	float: left;
 	padding: 10px;
+	margin: 10px;
+	border: 1px solid;
 
 }
 
