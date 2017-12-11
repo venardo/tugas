@@ -202,7 +202,7 @@ ul#menu li ul.submenu li:first-child a:after{
 
 #area {
 	background: #F8F8FF;
-	width: 893px;
+	width: 891px;
 	float: left;
 	padding: 10px;
 	border: 1px solid;
@@ -280,6 +280,13 @@ text-align: center;
 	#area {
 		width: auto;
 		float: right;
+	}
+	
+	.sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
 	}
 	
 	
